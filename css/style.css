@@ -1,0 +1,48 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  font-family: Helvetica;
+  background-color: #f5f5f5; }
+
+form.login-form {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background: #fff url(../img/logo.png) no-repeat center 80px;
+  background-size: 20%;
+  padding-top: 200px; }
+  form.login-form h1 {
+    font: 20px Helvetica;
+    color: #75828f;
+    margin-top: 200px 0 50px; }
+  form.login-form input {
+    display: inline-block;
+    background-color: #fff;
+    margin: 15px 0 0;
+    padding: 15px 30px 15px 10px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    font-size: 16px; }
+  form.login-form button {
+    display: inline-block;
+    background-color: #49b956;
+    margin: 15px 0px 0px;
+    padding: 15px 102px 15px 100px;
+    color: #fff;
+    border-radius: 4px;
+    border: 0px;
+    font: 18px Helvetica; }
+  form.login-form a {
+    display: inline-block;
+    color: #26bcff;
+    margin: 50px 0px 0px;
+    text-decoration: none;
+    font-size: 18px; }
